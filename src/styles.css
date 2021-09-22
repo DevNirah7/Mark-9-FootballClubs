@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+.App {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+}
+
+* {
+  margin: 0rem;
+  padding: 0rem;
+  background-color: black;
+  color: white;
+}
+
+h1 {
+  font-size: 10vh;
+}
+
+.nav {
+  background-color: white;
+}
+
+.nav #title {
+  color: red;
+  padding-top: 1rem;
+  margin-bottom: 0rem;
+  text-align: center;
+  font-weight: lighter;
+  font-family: "Bebas Neue";
+}
+
+.nav #para-title {
+  color: grey;
+  margin-top: 0rem;
+  padding: 0.5rem;
+  font-size: 3vh;
+  text-align: center;
+}
+
+#select {
+  margin-top: 2rem;
+  margin-bottom: 0rem;
+  color: lightgrey;
+  font-size: 2vh;
+}
+
+#btn {
+  background-color: black; /* Green */
+  margin: 1rem 0.5rem;
+  border: 1px solid white;
+  border-radius: 2rem;
+  box-shadow: 0 4px 8px;
+  color: red;
+  padding: 15px 30px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 3vh;
+}
+
+#btn:hover {
+  cursor: pointer;
+  color: white;
+}
+
+hr {
+  margin: 0rem 10rem;
+  color: lightgrey;
+}
+
+#li {
+  max-width: 240px;
+  margin: auto;
+  padding: 1rem 0rem;
+  text-align: left;
+}
+
+#city {
+  margin-bottom: 1rem;
+}
